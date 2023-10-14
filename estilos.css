@@ -6,7 +6,7 @@ body {
                     rgba(0, 0, 0, 0.7)
             ),
                 /* bottom, image */
-            url("imagenes/donpollo-background.webp");
+            url("./imagenes/donpollo-background.webp");
 }
 
 h1 {
@@ -30,10 +30,8 @@ h1 {
 }
 
 .navigar li{
-
     display: inline;
-
-
+    border-left: solid rgba(0, 0, 0, 0.3);
 }
 
 .navigar li a:hover {
