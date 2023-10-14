@@ -1,5 +1,12 @@
 body {
-    background-color: #050505;
+    background:
+        /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+            ),
+                /* bottom, image */
+            url("imagenes/donpollo-background.webp");
 }
 
 h1 {
@@ -10,3 +17,43 @@ h1 {
     text-align: center;
 }
 
+
+.navigar{
+    height: 50px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navigar li{
+
+    display: inline;
+
+
+}
+
+.navigar li a:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.navigar li a {
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+
+}
+
+.navegador {
+    text-align: center;
+}
+
+.fans {
+    margin-top: 50px;
+    text-align: center;
+}
